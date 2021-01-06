@@ -1,4 +1,9 @@
 /* Style the header */
+
+* {
+    box-sizing: border-box;
+}
+  
 .header{
     background-image: url(bildern/index/neurons.png);
     background-color: darkgrey;
@@ -9,17 +14,19 @@
     color: white;
 }
 
+.bg{
+    background: -webkit-linear-gradient( 0deg, lavender, darkcyan, steelblue, aquamarine);
+}
+
 .font{
     font-family: 'Lucida Sans';
     background: -webkit-linear-gradient( 120deg, darkcyan, aquamarine);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    width: 150%;
-    color: whitesmoke;
 }
 
 .ausgleich{
-    height: 32px;
+    height: 100%;
     padding: 10px;
 }
 
